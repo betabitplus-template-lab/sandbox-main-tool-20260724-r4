@@ -1,2 +1,2 @@
-def value() -> str:
-    return 'v0.1.0'
+def value() -> dict[str, str]:
+    return {'value': 'v2'}
