@@ -1,0 +1,25 @@
+name: release
+on:
+  push:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Mint release App token
+        id: app-token
+        uses: actions/create-github-app-token@v2
+        with:
+          app-id: ${{ secrets.LAB_APP_ID }}
+          private-key: ${{ secrets.LAB_APP_PRIVATE_KEY }}
+          owner: betabitplus-template-lab
+          repositories: ${{ github.event.repository.name }}
+          permission-contents: write
+          permission-pull-requests: write
+      - uses: googleapis/release-please-action@v5
+        with:
+          token: ${{ steps.app-token.outputs.token }}
+          config-file: release-please-config.json
+          manifest-file: .release-please-manifest.json
