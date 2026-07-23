@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/betabitplus-template-lab/sandbox-main-tool-20260724-r4/compare/v1.1.0...v2.0.0) (2026-07-23)
+
+
+### ⚠ BREAKING CHANGES
+
+* value() now returns a mapping.
+
+### Features
+
+* replace the value API ([#7](https://github.com/betabitplus-template-lab/sandbox-main-tool-20260724-r4/issues/7)) ([4faa712](https://github.com/betabitplus-template-lab/sandbox-main-tool-20260724-r4/commit/4faa712c9dbd1b004318dc4bf1d8cdaeb5090865))
+
 ## [1.1.0](https://github.com/betabitplus-template-lab/sandbox-main-tool-20260724-r4/compare/v1.0.0...v1.1.0) (2026-07-23)
 
 
