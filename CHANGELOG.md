@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/betabitplus-template-lab/sandbox-main-tool-20260724-r4/compare/v1.0.0...v1.1.0) (2026-07-23)
+
+
+### Features
+
+* add stable helper ([#5](https://github.com/betabitplus-template-lab/sandbox-main-tool-20260724-r4/issues/5)) ([ca84a0e](https://github.com/betabitplus-template-lab/sandbox-main-tool-20260724-r4/commit/ca84a0e2b2ae2dc8672c3b22a8b0b34abdd82c40))
+
 ## [1.0.0](https://github.com/betabitplus-template-lab/sandbox-main-tool-20260724-r4/compare/v0.2.0...v1.0.0) (2026-07-23)
 
 
